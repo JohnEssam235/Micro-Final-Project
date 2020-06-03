@@ -14,5 +14,5 @@
 #define KeyPad_Columns_Data     GPIO_PORTC_DATA_R
 
 /***  functions proto types *///
-uint32_t Keypad_getpressed(void);
+uint32_t Keypad_getPressedKey(void);
 #endif /*KEYPAD_H_*/
